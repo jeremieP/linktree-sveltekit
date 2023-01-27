@@ -1,6 +1,7 @@
 <script lang="ts">
   import data from "$lib/data/data.json"
-  import SocialIcon from "../lib/components/SocialIcon.svelte";
+  import SocialIcon from "../lib/components/SocialIcon.svelte"
+  import LinkCard from "../lib/components/LinkCard.svelte"
 
 </script>
 
@@ -18,6 +19,9 @@
   {data.me.job.title} - <a class="underline hover:no-underline" href={data.me.job.url} target="_blank" rel="noopener noreferrer">{data.me.job.company}</a>
 </h2>
 
+{#each data.links as item}
+  <LinkCard {...item} />
+{/each}
 
 <div class="flex items-center gap-4 mt-8 text-white">
   {#each data.socials as item}
