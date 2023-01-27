@@ -1,0 +1,46 @@
+{
+  "me": {
+    "name": "Jérémie Pereira - @jeremieP",
+    "avatar": "https://pbs.twimg.com/profile_images/1596619937530904578/l2KAcyZZ_400x400.jpg",
+    "job": {
+      "title":"Frontend Architect & Evangelist",
+      "company": "@leboncoin",
+      "url": "https://www.leboncoin.fr"
+    }
+  },
+  "seo": {
+    "title": "Jérémie Pereira - My links",
+    "description": ""
+  },
+  "links": [
+    {
+      "title": "Twitch channel",
+      "url": "https://www.twitch.tv/jeremieP_",
+      "image": "https://static-cdn.jtvnw.net/jtv_user_pictures/f522dd30-1fb7-43b3-93cb-55a5fdb54cf3-profile_image-70x70.png"
+    },
+    {
+      "title": "PSN Trophies",
+      "url": "https://psnprofiles.com/jayjayFR",
+      "image": "/platinum.png"
+    },
+    {
+      "title": "Some codepens",
+      "url": "https://codepen.io/jeremieP",
+      "image": "/codepen.png"
+    }
+  ],
+  "socials": [
+    {
+      "title": "Twitter",
+      "url": "https://www.twitter.com/jeremieP"
+    },
+    {
+      "title": "Github",
+      "url": "https://www.github.com/jeremieP"
+    },
+    {
+      "title": "Linkedin",
+      "url": "https://www.linkedin.com/in/jeremiepereira"
+    }
+  ]
+}
