@@ -2,7 +2,6 @@
   import data from "$lib/data/data.json"
   import SocialIcon from "../lib/components/SocialIcon.svelte"
   import LinkCard from "../lib/components/LinkCard.svelte"
-
 </script>
 
 <img 
