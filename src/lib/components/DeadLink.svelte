@@ -1,4 +1,16 @@
 <div class="deadLink" aria-hidden></div>
+<audio id="audioPlayer" src="/deadlink-sound.mp3" />
+
+<script lang="ts">
+  import { onMount } from "svelte"
+  onMount(() => {
+    setTimeout(() => {
+      const audioSrc = document.getElementById('audioPlayer')
+      audioSrc?.play()
+    }, 900)
+  })
+  
+</script>
 
 <style>
   div {
